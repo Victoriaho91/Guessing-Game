@@ -1,16 +1,10 @@
 
-    h1,h3{
+    h1,h4{
         color:black;
         font-family: Arial;
     }
 
-  
-    h3{
-        border: 2px solid teal;
-        background-color: teal;
-        color: white;
-    }    
- 
+
     .inline{
         display: inline-flex;
         margin: 3px;
@@ -19,34 +13,73 @@
         font-weight: bold;
         color:black;
     }
-    p{
-        color: royalblue;
-        font-weight: 500; 
+
+    #result {
+        color:white;
+        font-family: arial;
+        font-weight: bold; 
+        font-size: 20px;
+        border: 2px solid rgb(233, 120, 167);
+        background-color: rgb(233, 120, 167);
     }
 
-    body, div{
+    body{
         text-align: center;
+        max-width:800px;
+        margin: auto;
+    
     }
     
     ul{
-        display: inline-block; 
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: -30px;
+        max-width: 500px;
+        margin-top: -10px;
+        margin-left: 35px;
+        margin-bottom: 20px;
         font-size:25px;
-        text-align: left; 
+        text-align: center;
     }
+
 
     .box{
         border: 2px solid grey;
         display: inline-block;
-        width: 600px;
-        height: 300px;
+        width: 650px;
+        height: 320px;
+        background-color:white;
+        background-image: url(https://cdn2.vectorstock.com/i/1000x1000/37/96/cute-brain-with-question-mark-character-vector-25803796.jpg);
+        background-repeat: no-repeat;
+        background-position: top 108px left 420px;
+        background-size: 250px 290px;
     }
 
-    .input{
-        margin-top: 25px;
+
+    
+    .lastrow{
+        position: static;
+        top:30px;
 
     }
 
+    .submitLine{
+        position:static;
+        top: 30px;
+        margin: auto;
+        padding:10px;
+    }
 
+    .answers li{
+        border: 2px solid black;
+        display: inline-block;
+        list-style-type: none;
+        width: 40px;
+        height: 60px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow:6px 6px 5px rgb(123, 136, 136);
+        background-color: white;
+        font-family: arial;
+        line-height:60px;
+        white-space: nowrap;
+        
+
+    }

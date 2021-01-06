@@ -8,35 +8,45 @@
 </title>
 
 <body>
-<h1>
-    My Guessing Game
-</h1>
 
-<div class="box">
-<h3 >Your Previous Guesses: </h3>
+    <h1>
+        My Guessing Game
+    </h1>
 
-<div class="list">
-    <ul>
-        <li>3</li>
-        <li>25</li>
-        <li>67</li>
-        <li>40</li>
-    </ul>
-</div>
+    <div class="box">
 
-    <p>
-        One Guess Remaining, you are close!
-    </p>
+        <p id='result'>
+            Guess A Number Between 1-100
+        </p>
 
-    <div class="input">
-        <input class= "inline" type= "text" value= "Your Guess Here">
-        <input class= "inline" type= "button" value= "Submit">
-        <input class= "inline" type= "button" value= "Play Again">
-        <input class= "inline" type= "button" value= "Hint">
+        <h4>Your previous guesses:</h4>
+
+        <div class= 'answers'>
+            <ul>
+                <li >-</li>
+                <li >-</li>
+                <li >-</li>
+                <li >-</li>
+                <li >-</li>
+            
+            </ul>
+        </div>    
+ 
+
+    <div class = 'submitLine'>
+        <input id = 'input' class= "inline" type= "number">
+        <button id='submitBtn' class= "inline" type= "button">Submit</button> 
     </div>
+    
+    
+    <div class = "lastrow">
+        <button id = 'playAgain' class= "inline" type= "button" >Play Again</button>
+        <button id = 'hint' class= "inline" type= "button">Hint</button>
+    </div>
+
 </div>
 
-
+<script src='guessing-game.js'></script> 
 </body>
 
 </html>
